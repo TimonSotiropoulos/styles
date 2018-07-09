@@ -1,0 +1,31 @@
+{
+  "name": "@timoncs/styles",
+  "version": "0.0.1",
+  "description": "Styling Package for Web Applications",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimonSotiropoulos/styles.git"
+  },
+  "author": "Timon Sotiropoulos <timon.sotiropoulos@gmail.com> (https://github.com/TimonSotiropoulos)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimonSotiropoulos/styles/issues"
+  },
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "homepage": "https://github.com/TimonSotiropoulos/styles#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
